@@ -3,6 +3,7 @@
 Steps to reproduce:
 
   * Start the app with `mix phx.server`
+  * Go to `localhost:4000`
   * Type something in the text input field, so that it does not have the default value.
   * On line 11 in `lib/lv_reconnect_issue_web/live/index.ex`,
   change the `<%#` to `<%=`.
