@@ -7,7 +7,7 @@ defmodule LvReconnectIssueWeb.ExampleFormLive do
 
   def render(assigns) do
     ~H"""
-      <form id="example-form" action="#" phx-change="change" phx-target={ @myself }>
+      <form id="example-form" action="#" phx-change="change" phx-target="#example-form">
         <input type="text" name="value" value={ @value }>
       </form>
     """
